@@ -41,14 +41,6 @@ public class SwipeLayoutManager {
             currentLayout.close();
         }
     }
-
-
-    /**
-     * 判断档期的layout是否应该能被滑动
-     *
-     * @param swipeLayout 要被判断的swipeLayout，如果该layout和当前的layout相同，那么也是可以滑动的。
-     * @return true 可以滑动
-     */
     public boolean isShouldSwipe(SwipeLayout swipeLayout) {
         if (currentLayout == null) {
             //说明没有打开的SwipeLayout，可以滑动

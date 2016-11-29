@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     private class MyAdapter extends BaseAdapter implements SwipeLayout.OnSwipeStateChangedListener {
 
         @Override
